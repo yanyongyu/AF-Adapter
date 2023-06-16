@@ -1,15 +1,14 @@
 [tool.poetry]
-name = "Project Name"
+name = "af-adapter"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "AF-Adapter (Attention-FFN Adapter): Enhanced Continual Pretraining"
+authors = ["yanyongyu <yyy@yyydl.top>"]
 license = "MIT"
 readme = "README.md"
-homepage = ""
-repository = ""
-documentation = ""
-keywords = []
-classifiers = []
+homepage = "https://github.com/yanyongyu/AF-Adapter"
+repository = "https://github.com/yanyongyu/AF-Adapter"
+documentation = "https://github.com/yanyongyu/AF-Adapter"
+keywords = ["adapter", "transformers"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
