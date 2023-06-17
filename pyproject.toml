@@ -12,12 +12,20 @@ keywords = ["adapter", "transformers"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+nlppets = "^0.1.0"
+transformers = "^4.30.2"
+torch = ">=1.13.1, <3.0.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.10.1"
 black = "^23.1.0"
 nonemoji = "^0.1.2"
 pre-commit = "^3.1.0"
+
+[tool.poetry.group.example.dependencies]
+wandb = "^0.15.4"
+evaluate = "^0.4.0"
+datasets = "^2.13.0"
 
 [tool.black]
 line-length = 88
@@ -35,6 +43,9 @@ extra_standard_library = ["typing_extensions"]
 
 [tool.pycln]
 path = "."
+
+[tool.pyright]
+reportPrivateImportUsage = false
 
 [build-system]
 requires = ["poetry_core>=1.0.0"]
