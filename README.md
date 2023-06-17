@@ -14,4 +14,8 @@ pip install af-adapter
 
 ~~TODO~~
 
-See [scipts](./scripts/) and [examples](./examples/) directory for more details.
+See [bert](./af_adapter/impl/bert/) for more model architecture details.
+
+See [scipts](./scripts/) and [examples](./examples/) directory for more training details.
+
+## Citation
