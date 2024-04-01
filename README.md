@@ -23,8 +23,8 @@ See [scipts](./scripts/) and [examples](./examples/) directory for more training
 ```bibtex
 @INPROCEEDINGS{10385733,
   author={Yan, Yongyu and Xue, Kui and Shi, Xiaoming and Ye, Qi and Liu, Jingping and Ruan, Tong},
-  booktitle={2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
-  title={AF Adapter: Continual Pretraining for Building Chinese Biomedical Language Model}, 
+  booktitle={2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  title={AF Adapter: Continual Pretraining for Building Chinese Biomedical Language Model},
   year={2023},
   pages={953-957},
   keywords={Adaptation models;Head;Biological system modeling;Buildings;Natural languages;Stability analysis;Task analysis;Continual pretraining;Chinese biomedical natural language processing;Adapter tuning},
