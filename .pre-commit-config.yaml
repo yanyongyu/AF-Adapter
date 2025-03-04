@@ -14,7 +14,7 @@ repos:
         stages: [pre-commit]
 
   - repo: https://github.com/pycqa/isort
-    rev: 6.0.0
+    rev: 6.0.1
     hooks:
       - id: isort
         stages: [pre-commit]
